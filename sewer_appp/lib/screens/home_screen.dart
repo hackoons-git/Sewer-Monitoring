@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
       debugShowCheckedModeBanner: false,
       home:Scaffold(
         appBar: PreferredSize(
-          preferredSize: Size(double.infinity, 100),
+          preferredSize: Size(double.infinity, 75),
           child: AppBar(
 
             centerTitle: true,
