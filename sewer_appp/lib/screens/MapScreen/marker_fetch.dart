@@ -15,7 +15,7 @@ class _MapMarkerState extends State<MapMarker> {
   List<Marker> allMarker = [];
   Completer<GoogleMapController> _controller = Completer();
 
-  var list [];
+  var list ;
 
   void initState(){
 
@@ -34,7 +34,7 @@ class _MapMarkerState extends State<MapMarker> {
     {
       //print(map.level);
       print(map.id);
-      list.add(map.level);
+     // list.add(map.level);
       //print(map.longitude);
      // print(map.latitude);
       allMarker.add(Marker(

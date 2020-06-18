@@ -57,7 +57,7 @@ class _MapScreenState extends State<MapScreen> {
                   style: TextStyle(
                     color: Colors.black,
                   ),) ,
-                backgroundColor: Colors.blueGrey,
+                backgroundColor: Colors.blue,
                 elevation: 50.0,
                 brightness: Brightness.dark,
                 actions: <Widget>[

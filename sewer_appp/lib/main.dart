@@ -18,7 +18,7 @@ class Sewer extends StatelessWidget {
 
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.brown,
+        primarySwatch: Colors.blue,
       ),
       initialRoute:WelcomeScreen.id,
       //if you have initial screen then you cannot have home
