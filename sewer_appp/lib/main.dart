@@ -4,6 +4,7 @@ import 'package:sewerappp/screens/home_screen.dart';
 import 'package:sewerappp/screens/authentication/login_screen.dart';
 import 'package:sewerappp/screens//welcome_screen.dart';
 import 'package:sewerappp/screens/authentication/registration_screen.dart';
+import 'package:sewerappp/screens/complaint_form.dart';
 
 void main()
 {
@@ -27,6 +28,7 @@ class Sewer extends StatelessWidget {
         LoginScreen.id:(context)=>LoginScreen(),
         RegistrationScreen.id:(context)=>RegistrationScreen(),
         HomeScreen.id:(context)=>HomeScreen(),
+        ComplaintScreen.id:(context)=>ComplaintScreen(),
       },
     );
   }
