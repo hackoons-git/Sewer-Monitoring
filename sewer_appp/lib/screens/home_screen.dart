@@ -5,7 +5,7 @@ import 'package:sewerappp/screens/welcome_screen.dart';
 import 'package:sewerappp/services/auth.dart';
 import 'package:sewerappp/shared/components.dart';
 import 'package:sewerappp/shared/rounded_button.dart';
-
+import 'complaint_form.dart';
 
 class HomeScreen extends StatefulWidget {
 
@@ -89,6 +89,13 @@ class _HomeScreenState extends State<HomeScreen> {
                 onTap: () {
                   // Update the state of the app.
                   // ...
+                },
+              ),
+              ListTile(
+                title: Text('Complaint Form',style: TextStyle(fontSize: 15.0,
+                  color:Colors.black,),),
+                onTap: () {
+                  Navigator.pushNamed(context,ComplaintScreen.id);
                 },
               ),
               ListTile(
